@@ -1,12 +1,12 @@
 {
-  "name": "smajti1/laravel-wizard",
+  "name": "axhello/laravel-wizard",
   "description": "Wizard component for laravel5.",
   "keywords": ["laravel", "wizard"],
   "license": "MIT",
   "authors": [
     {
-      "name": "Hubert Dziubiński",
-      "email": "smajti1@gmail.com"
+      "name": "axhello",
+      "email": "zhanglin-pc@live.com"
     }
   ],
   "require": {
