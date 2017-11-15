@@ -7,7 +7,7 @@ use Smajti1\Laravel\Exceptions\StepNotFoundException;
 class Wizard
 {
 
-    const SESSION_NAME = 'smajti1.wizard';
+    const SESSION_NAME = 'wizard';
     protected $steps = [];
     protected $currentIndex = -1;
     protected $sessionKeyName = '';
@@ -32,6 +32,22 @@ class Wizard
         }
 
         $this->sessionKeyName = self::SESSION_NAME . '.' . $sessionKeyName;
+    }
+
+    /**
+     * @param null $slug
+     * @param null $key
+     * @return string
+     */
+    public function getSessionKey($slug = null, $key = null)
+    {
+        if (is_null($slug) &&  is_null($key)) {
+            return $this->sessionKeyName;
+        }
+        if (is_null($key)) {
+            return $this->sessionKeyName.'.'.$slug;
+        }
+        return $this->sessionKeyName.'.'.$slug.'.'.$key;
     }
 
     /**
