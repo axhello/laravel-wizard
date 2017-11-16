@@ -1,5 +1,5 @@
 {
-  "name": "axhello/laravel-wizard",
+  "name": "wizard/laravel-wizard",
   "description": "Wizard component for laravel5.",
   "keywords": ["laravel", "wizard"],
   "license": "MIT",
@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Smajti1\\Laravel\\": "src/"
+      "Wizard\\Laravel\\": "src/"
     }
   },
   "minimum-stability": "dev"
