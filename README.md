@@ -13,4 +13,4 @@
 
 ## License
 
-    fork from  https://github.com/smajti1/laravel-wizard
+    fork from  [https://github.com/smajti1/laravel-wizard](https://github.com/smajti1/laravel-wizard)
