@@ -1,8 +1,8 @@
 <?php
 
-namespace Smajti1\Laravel;
+namespace Axhello\Laravel;
 
-use Smajti1\Laravel\Exceptions\StepNotFoundException;
+use Axhello\Laravel\Exceptions\StepNotFoundException;
 
 class Wizard
 {
@@ -41,7 +41,7 @@ class Wizard
      */
     public function getSessionKey($slug = null, $key = null)
     {
-        if (is_null($slug) &&  is_null($key)) {
+        if (is_null($slug) && is_null($key)) {
             return $this->sessionKeyName;
         }
         if (is_null($key)) {

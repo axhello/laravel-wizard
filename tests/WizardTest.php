@@ -1,7 +1,7 @@
 <?php
 
-use Smajti1\Laravel\Exceptions\StepNotFoundException;
-use Smajti1\Laravel\Wizard;
+use Axhello\Laravel\Exceptions\StepNotFoundException;
+use Axhello\Laravel\Wizard;
 
 class WizardTest extends PHPUnit_Framework_TestCase
 {
@@ -54,7 +54,7 @@ class WizardTest extends PHPUnit_Framework_TestCase
     }
 }
 
-class FirstTestStep extends \Smajti1\Laravel\Step
+class FirstTestStep extends \Axhello\Laravel\Step
 {
 
     public static $label = 'First step label';
@@ -70,7 +70,7 @@ class FirstTestStep extends \Smajti1\Laravel\Step
     }
 }
 
-class SecondTestStep extends \Smajti1\Laravel\Step
+class SecondTestStep extends \Axhello\Laravel\Step
 {
 
     public static $label = 'Second step label';
