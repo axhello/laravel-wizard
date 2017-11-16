@@ -9,7 +9,7 @@ simple laravel step-by-step wizard
 
 ## Install
 
-    $ composer require smajti1/laravel-wizard
+    $ composer require axhello/laravel-wizard
 
 ## Example/How
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Axhello\Laravel;
+namespace Wizard\Laravel;
 
 use Illuminate\Http\Request;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Axhello\Laravel;
+namespace Wizard\Laravel;
 
-use Axhello\Laravel\Exceptions\StepNotFoundException;
+use Wizard\Laravel\Exceptions\StepNotFoundException;
 
 class Wizard
 {

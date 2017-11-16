@@ -1,6 +1,6 @@
 <?php
 
-namespace Axhello\Laravel\Exceptions;
+namespace Wizard\Laravel\Exceptions;
 
 class StepNotFoundException extends \Exception
 {
