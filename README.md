@@ -9,7 +9,7 @@ simple laravel step-by-step wizard
 
 ## Install
 
-    $ composer require axhello/laravel-wizard
+    $ composer require wizard/laravel-wizard
 
 ## License
 
